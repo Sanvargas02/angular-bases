@@ -5,6 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+//Clase común y corriente
 export class AppComponent {
-  title = 'bases';
+
+  public title: string = 'Hola Mundo';
+
 }
