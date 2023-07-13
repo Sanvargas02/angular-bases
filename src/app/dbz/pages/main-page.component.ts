@@ -23,4 +23,9 @@ export class MainPageComponent {
     this.characters.push(character);
   }
 
+  onDeleteCharacter( index: number ) {
+    //Remover el elemento basados en el index
+      this.characters.splice(index, 1);
+  }
+
 }
